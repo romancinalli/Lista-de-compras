@@ -1,0 +1,88 @@
+
+
+
+
+body{
+    background-color:  #0e2855;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shopping-cart-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+
+.input-div{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px 5px 20px 5px;
+    padding: 0px 20px 0px 20px;
+    border: none;
+    border-radius:10px;
+    background-color: white;
+    font-size: 18px;
+}
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 6, 46);
+    border-radius:10px;}
+
+.boton-agregar:hover {
+    opacity: 0.9;
+}
+
+.container{
+    display: block;
+    
+    
+}
+
+.item-input{
+    width: 40%;
+    height: 50px;
+    padding: 0px 20px;
+    border: solid white 1px;
+    border-radius: 10px;
+    font-size: 18px; 
+    color: white;
+    background: none;
+    outline: none;
+
+}
+.item{
+    margin-bottom: 10px;
+}
+.boton-editar{
+    margin: 0px 5px;   
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;  
+    font-family: 'Montserrat', sans-serif;
+    }
+.boton-remover{
+    height: 50px; 
+    width: 50px;
+    margin: 0px 5px;  
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px; 
+}
